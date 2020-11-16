@@ -1,0 +1,188 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso\\SistemaPermiso.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj",
+        "projectName": "SistemaPermiso.Core",
+        "projectPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj",
+        "packagesPath": "C:\\Users\\marrodriguez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marrodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Infraestructure\\SistemaPermiso.Infraestructure.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Infraestructure\\SistemaPermiso.Infraestructure.csproj",
+        "projectName": "SistemaPermiso.Infraestructure",
+        "projectPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Infraestructure\\SistemaPermiso.Infraestructure.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj": {
+                "projectPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso\\SistemaPermiso.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso\\SistemaPermiso.Api.csproj",
+        "projectName": "SistemaPermiso.Api",
+        "projectPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso\\SistemaPermiso.Api.csproj",
+        "packagesPath": "C:\\Users\\marrodriguez\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\marrodriguez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj": {
+                "projectPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Core\\SistemaPermiso.Core.csproj"
+              },
+              "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Infraestructure\\SistemaPermiso.Infraestructure.csproj": {
+                "projectPath": "C:\\Users\\marrodriguez\\Documents\\SistemaPermiso\\SistemaPermiso.Infraestructure\\SistemaPermiso.Infraestructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

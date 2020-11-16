@@ -1,0 +1,9 @@
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\bin\Debug\netstandard2.0\SistemaPermiso.Core.deps.json
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\bin\Debug\netstandard2.0\SistemaPermiso.Core.dll
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\bin\Debug\netstandard2.0\SistemaPermiso.Core.pdb
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\obj\Debug\netstandard2.0\SistemaPermiso.Core.AssemblyInfoInputs.cache
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\obj\Debug\netstandard2.0\SistemaPermiso.Core.AssemblyInfo.cs
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\obj\Debug\netstandard2.0\SistemaPermiso.Core.csproj.CoreCompileInputs.cache
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\obj\Debug\netstandard2.0\SistemaPermiso.Core.dll
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\obj\Debug\netstandard2.0\SistemaPermiso.Core.pdb
+C:\Users\marrodriguez\Documents\SistemaPermiso\SistemaPermiso.Core\obj\Debug\netstandard2.0\SistemaPermiso.Core.csprojAssemblyReference.cache
